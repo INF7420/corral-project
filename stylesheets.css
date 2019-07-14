@@ -63,3 +63,77 @@ footer {
     padding: 1rem 2rem 1rem;
     width: 300px;
 }
+
+label {
+    display: block;
+    font-weight: 700;
+    margin-bottom: 0.5sem;
+}
+.form-input {
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    border: 0;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 1em;
+    margin-bottom: 1.5em;
+    width: 100%;
+}
+
+.form-input:focus {
+    outline: none;
+    border-radius: 6px;
+    border: 0;
+    border: 2px solid #3b4447;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+.error {
+border-color: #2d0fd8;
+}
+
+.error-message {
+    color: #2d0fd8;
+    margin: -1em 0 1.5em;
+}
+
+[type="submit"] {
+    width: 100%;
+    background: #8c9296d1;
+    color: rgb(244, 243, 234);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 4px;
+    border: 0;
+    cursor: pointer;
+    font-size: .75em;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding: .5em;
+  }
+  
+  [type="submit"]:hover {
+    background: #0D47A1;  
+  }
+  
+  .error {
+    border-color: #C62828;
+  }
+  
+  .error-message {
+    margin-top: -1em;
+    margin-bottom: 1em;
+    color: #C62828;
+  
+}
+
+@media screen and (min-width: 1065px) {
+    form {
+        width: 50%;
+        margin: 3em auto;
+    }
+}
