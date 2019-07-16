@@ -29,11 +29,30 @@
   <h1>
     Contact Form
   </h1>
-      <p>
-          "Blandas oyo untarla estudio papeles los notario. En el su caja yo digo cien azul boga. Suma muy rara don alli raza pre solo. Compadecer tristisimo ma maternales dilettante ostentosos su. Suspiraban preteritos pastosidad oh escopetazo ya ti ostentosos grandisimo. Misero unidas dejame bastos estuvo van aun. Llegado verdijo de ex algunos si. 
-          Cortesanos pergaminos movimiento ya en. Pies tuvo nada bien por mil son. Ni cita vaga ay boga alla sexo. Agradecera su al no deliciosas despertado suficiente lo. Ese hoy recibir quitado etc renglon. Entonces groseras si enterada ni tenorios religion. Muy sala ahi ano poca casi solo pura era digo. 
-          No amor lujo os ello. Lecturas sus dos sobrinos patillas van. Consistio escribano idealismo muy resonaban reintegra han. Mal chi ficcion fue emplear lugares poetico tomaban sombras. Mozo ma raso en mala pide. Arrepintio escandalos ni es invariable molestarle."
-      </p>
+  <form action="https://formspree.io/gh7874@wayne.edu" method="POST" data-validate>
+   <label for="name">Name</label>
+    <input id="name" type="text" name="name"
+    class="form-input" required>
+ 
+    <div>
+      <label for="email">Email
+        <input id="email" type="email" name="_replyto" 
+        class="form-input" required>
+      </label>
+    </div>
+    
+    <div>
+      <label for="message">Message
+        <textarea id="message" name="message" 
+        class="form-input" required></textarea>
+      </label>
+    </div>
+
+    <div>
+      <button type="submit">Send</button>
+    </div>
+
+  </form>
 </main>
 <footer>
   <a href="https://www.facebook.com/anaelisacorral" target="_blank">
@@ -46,4 +65,10 @@
     <p>Ana Corral &copy; 2019</p>
   </div>
 </footer>
+
+<script src="https://cdn.jsdelivr.net/gh/cferdinandi/validate@2.2.0/dist/validate.min.js"></script>
+<script>
+  validate.init();
+</script>
+
 </html>
