@@ -27,43 +27,43 @@ h2{
 }
 
 h3{
-   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-   font-size: 12pt;
-   color: #303030;
-   padding-left: 2em;
-}
-
-h4{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 12pt;
     color: #303030;
     padding-left: 2em;
-    font-style: italic;
-}
-
-ol {
-    list-style: none;
-    counter-reset: my-awesome-counter;
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0;
-    padding: 0;
-  }
-  ol li {
-    counter-increment: my-awesome-counter;
-    display: flex;
-    width: 50%;
-    font-size: 0.8rem;
-    margin-bottom: 0.5rem;
-  }
-  ol li::before {
-    content: "0" counter(my-awesome-counter);
-    font-weight: bold;
-    font-size: 3rem;
-    margin-right: 0.5rem;
-    font-family: 'Abril Fatface', serif;
-    line-height: 1;
-  }
+ }
+ 
+ h4{
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-size: 12pt;
+     color: #303030;
+     padding-left: 2em;
+     font-style: italic;
+ }
+ 
+ ol {
+     list-style: none;
+     counter-reset: my-awesome-counter;
+     display: flex;
+     flex-wrap: wrap;
+     margin: 0;
+     padding: 0;
+   }
+   ol li {
+     counter-increment: my-awesome-counter;
+     display: flex;
+     width: 50%;
+     font-size: 0.8rem;
+     margin-bottom: 0.5rem;
+   }
+   ol li::before {
+     content: "0" counter(my-awesome-counter);
+     font-weight: bold;
+     font-size: 3rem;
+     margin-right: 0.5rem;
+     font-family: 'Abril Fatface', serif;
+     line-height: 1;
+   } 
 
 .menu li {
     display: inline-block;
@@ -101,7 +101,8 @@ footer {
 
 .index-main img {
     padding: 1rem 2rem 1rem;
-    width: 300px;
+    width: 20%;
+    height: 30%
 }
 
 label {
