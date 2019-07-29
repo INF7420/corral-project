@@ -30,14 +30,12 @@ h3{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 12pt;
     color: #303030;
-    padding-left: 2em;
  }
  
  h4{
      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
      font-size: 12pt;
      color: #303030;
-     padding-left: 2em;
      font-style: italic;
  }
  
@@ -99,10 +97,24 @@ footer {
     display: flex;
 }
 
-.index-main img {
-    padding: 1rem 2rem 1rem;
+.sidebar {
     width: 20%;
-    height: 30%
+    /*padding: 1rem 2rem 1rem;*/
+}
+
+.main-container {
+    width: 80%;
+    padding: 0 20px;
+}
+
+p {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.sidebar .photograph {
+    width: 100%;
+    max-width: 80px;
 }
 
 label {
@@ -168,8 +180,7 @@ border-color: #2d0fd8;
   .error-message {
     margin-top: -1em;
     margin-bottom: 1em;
-    color: #C62828;
-  
+    color: #C62828;  
 }
 
 @media screen and (min-width: 1065px) {
@@ -177,4 +188,9 @@ border-color: #2d0fd8;
         width: 50%;
         margin: 3em auto;
     }
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
 }
