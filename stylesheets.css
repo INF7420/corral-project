@@ -72,8 +72,14 @@ h3{
 main {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     flex: 1;
-    max-width: 900px;
+    width: auto;
     margin: auto;
+}
+
+@media (min-width: 800px) {
+    main {
+        width: 800px;
+    }
 }
 img {
  max-width: 100%; 
